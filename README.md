@@ -17,12 +17,16 @@ This project applies **association rule mining** to analyze gene expression data
 ### Step-by-Step Process:
 1️⃣ **Data Preprocessing**:
    - Normalizes gene expression data and converts it into a **binary matrix** for analysis.
+     
 2️⃣ **Association Rule Mining**:
    - Applies the **Apriori algorithm** to extract frequent gene co-expression patterns.
+     
 3️⃣ **Filtering Significant Rules**:
    - Selects rules with **lift > 2.2** to focus on **strong gene interactions**.
+     
 4️⃣ **Biological Validation**:
    - Compares identified gene pairs with **known antibiotic resistance genes** in **CARD & STRING**.
+     
 5️⃣ **Network Visualization**:
    - Constructs a **gene interaction network** for better interpretability.
 
