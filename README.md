@@ -7,7 +7,7 @@ This project applies **association rule mining** to analyze gene expression data
 1. **Frequent Itemset Mining** 🔍:
    - Uses the **Apriori algorithm** to find frequent gene associations from gene expression data.
 2. **Filtering Strong Associations** 📊:
-   - Filters rules based on **lift > 2.2** to retain biologically significant gene interactions.
+   - Filters rules based on **lift > 2.5** to retain biologically significant gene interactions.
 3. **Biological Validation** 🧬:
    - Cross-references **CARD (Comprehensive Antibiotic Resistance Database)** and **STRING (Protein Interaction Database)** to validate gene associations.
 4. **Network Visualization** 📈:
@@ -22,7 +22,7 @@ This project applies **association rule mining** to analyze gene expression data
    - Applies the **Apriori algorithm** to extract frequent gene co-expression patterns.
      
 3️⃣ **Filtering Significant Rules**:
-   - Selects rules with **lift > 2.2** to focus on **strong gene interactions**.
+   - Selects rules with **lift > 2.5** to focus on **strong gene interactions**.
      
 4️⃣ **Biological Validation**:
    - Compares identified gene pairs with **known antibiotic resistance genes** in **CARD & STRING**.
