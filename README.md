@@ -71,7 +71,9 @@ python apriori_analysis.py
 
 ## 🔮 Future Work
 🔹 Extend analysis to **larger datasets** and other bacterial species.
+
 🔹 Apply **deep learning** models for **gene interaction prediction**.
+
 🔹 Conduct **wet-lab validation** of newly identified gene associations.
 
 ## 🤝 Contributing
